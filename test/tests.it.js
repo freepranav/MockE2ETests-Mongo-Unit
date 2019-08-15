@@ -7,7 +7,7 @@ const testMongoUrl = process.env.MONGO_URL
 describe('service', () => {
     const testData = require('../testData/testData.json')
     beforeEach(() => mongoUnit.initDb(testMongoUrl, testData))
-    /afterEach(() => mongoUnit.drop())
+    afterEach(() => mongoUnit.drop())
 
     //after(() => mongoUnit.drop())
 
