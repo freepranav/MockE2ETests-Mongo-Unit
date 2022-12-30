@@ -20,7 +20,7 @@
         "chai": "^4.2.0",
         "co": "^4.6.0",
         "hermione": "^2.12.4",
-        "mocha": "^6.2.0",
+        "mocha": "^10.2.0",
         "mocha-prepare": "^0.1.0",
         "mongo-unit": "^1.4.4",
         "selenium-standalone": "^6.16.0"
